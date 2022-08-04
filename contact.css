@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.614);
+
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 90px;
+    background-color: rgba(91, 2, 2, 0.989);
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+nav ul a{
+
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 46px;
+    
+    
+}
+
+
+nav ul a:link{
+    color: azure;
+} 
+
+nav ul a:visited{
+    color: rgb(0, 0, 0);
+
+}
+
+nav ul a:hover{
+    color: white;
+}
+
+nav ul a:active{
+    color: rgb(52, 127, 212);
+}
+
+nav ul a li{
+    display: inline-block;
+    margin: 25px 25px;
+}
+
+main{
+    width: 100vw;
+    height: 100vw;
+    background-color: lavenderblush;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('/img/AdobeStock_289927915-scaled-e1577725809538.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+    
+}
+
+.logo{
+    position: absolute;
+    float: left;
+    top: -65%;
+}
+
+.img1{
+    width: 140px;
+    /* position: sticky; */
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(91, 2, 2, 0.989);
+    
+}
+
+footer a{
+    color: black;
+}
+
+.form{
+    position: relative;
+    height: 80vw;
+    border-radius: 30px;
+}
+
